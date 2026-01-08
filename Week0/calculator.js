@@ -15,9 +15,6 @@
 
   Once you've implemented the logic, test your code by running
 */
-
-
-
 class Calculator{
   constructor(){
     this.result=0;
@@ -74,7 +71,6 @@ class Calculator{
         }
     }
 }
-
 const calculator = new Calculator();
 calculator.add(5);
 calculator.subtract(3);
