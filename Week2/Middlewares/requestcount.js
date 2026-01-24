@@ -9,7 +9,6 @@ let requestCount = 0;
 // requestCount variable
 app.use(function(req, res, next){
   requestCount++;
-  console.log(`Request Count: ${requestCount}`);
   next();
 })
 app.get('/user', function(req, res) {
