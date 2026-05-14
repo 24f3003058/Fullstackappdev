@@ -1,8 +1,8 @@
 /*
-  Implement a function `countVowels` that takes a string as an argument and returns the number of vowels in the string.
-  Note: Consider both uppercase and lowercase vowels ('a', 'e', 'i', 'o', 'u').
-
-  Once you've implemented the logic, test your code by running
+  Write a function `findLargestElement` that takes an array of numbers and returns the largest element.
+  Example:
+  - Input: [3, 7, 2, 9, 1]
+  - Output: 9
 */
 
 function findLargest(arr){
